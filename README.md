@@ -9,3 +9,7 @@ Kodni komment bilan yozing
 Ishlashdan oldin pull qilib oling
 Deadline ga amal qiling (01.02.2022)
 Commitlar barchaga tushunarli bo'lsin
+
+1. Home page Ahmedov Shohbaxt.
+2. About us page Mirzaxon Muqimov
+3. Blog page Saidakrom Sharopov
