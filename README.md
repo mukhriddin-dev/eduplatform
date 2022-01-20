@@ -13,3 +13,5 @@ Commitlar barchaga tushunarli bo'lsin
 1. Home page Ahmedov Shohbaxt.
 2. About us page Mirzaxon Muqimov
 3. Blog page Saidakrom Sharopov
+4. Pricing page Vohid Abduraxmonov
+5. 
