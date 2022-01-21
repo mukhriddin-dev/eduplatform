@@ -14,4 +14,4 @@ Commitlar barchaga tushunarli bo'lsin
 2. About us page Mirzaxon Muqimov
 3. Blog page Saidakrom Sharopov
 4. Pricing page Vohid Abduraxmonov
-5. 
+5. FAQ page Abbos Nusrtullayev 
