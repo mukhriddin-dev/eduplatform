@@ -6,8 +6,8 @@ body{
     background: #00142C;
 }
 .main_photo{
-    height: 500px;
-    width: 80%;
+    height: 450px;
+    width: 100%;
 }
 .main_title{
     font-size: 60px;
@@ -16,7 +16,7 @@ body{
     color: #0EC9AC;
 }
 .main_btn{
-    width:40%;
+    width:35%;
     background: #0EC9AC;
     border: none;
 }
@@ -25,12 +25,33 @@ body{
 }
 .main_btn:active{
     box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(0, 147, 68, 0.61) 1px 1px 10px 1px;
+    color: darkgray;
+}
+.benefit_card{
+    height: 210px;
+    box-sizing: border-box;
+    background: #011936;
+    border-radius: 10px;
+}
+.benefit_icon{
+    font-size: 30px;
+    position: relative;
+    top: -5px;
+    color: #0EC9AC;
+}
+.card-text{
+    color:#8C98A8;
+}
+.benefit_num{
+    position: relative;
+    top: -5px;
+    color: #0EC9AC;
+}
+.company_logo{
+    width: 120px;
+    height: 120px;
 }
 @media only screen and (max-width: 1024px) {
-    .main_photo{
-        height: 500px;
-        width: 90%;
-    }
     .main_title{
         font-size: 55px;
     }
