@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* header */
+
+section {
+    padding-bottom: 30px;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 460px;
+    background: #001831;
+    display: flex;
+    flex-direction: column;
+    justify-content: s;
+}
+
+.header .section-title {
+    position: relative;
+    top: 180px;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.header .section-text {
+    color: #888;
+    position: relative;
+    top: 180px;
+    width: 45%;
+    text-align: center;
+    margin: 30px auto;
+}
+
+/* header end */
+
+/* Flexible Pricing Plans */
+
+.plans {
+    position: relative;
+    width: 100%;
+    background: #00142C;
+}
+
+.plans .container .plans-name {
+    color: #0EC9AC;
+    padding-top: 80px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.plans .container .plans-title {
+    color: #fff;
+    font-weight: bold;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.plans-cards {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.plans-cards .card {
+    margin: 20px;
+    background: #00142C;
+    color: #fff;
+    padding: 40px;
+    border: 2px solid #10233B;
+}
+
+.plans-cards .card .card-title {
+    font-weight: bold;
+}
+
+.plans-cards .card .card-text {
+    font-weight: bold;
+    font-size: 36px;
+    color: #0EC9AC;
+}
+.plans-cards .card .card-p-text {
+    /* font-weight: bold; */
+    color: #828FA0;
+    font-size: 15px;
+}
+
+.plans-cards .card .table{
+    color: #828FA0;
+    padding: 20px;
+}
+
+.plans-cards .card .table tr td{
+    /* border-bottom: none; */
+    border-bottom: 1px solid #10233c;
+}
+
+.plans-cards .card .table tr td svg {
+    color: #0EC9AC;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.btn {
+    background: #0EC9AC;
+    color: #fff;
+    border: none;
+    box-sizing: border-box;
+}
+
+.btn:hover {
+    border: 1px solid #0EC9AC;
+    background: transparent;
+    color: #0EC9AC;
+}
