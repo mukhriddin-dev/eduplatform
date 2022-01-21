@@ -83,7 +83,10 @@ section {
     color: #fff;
     padding: 40px;
     border: 2px solid #10233B;
+    max-height: 540px;
 }
+
+
 
 .plans-cards .card .card-title {
     font-weight: bold;
@@ -103,6 +106,7 @@ section {
 .plans-cards .card .table{
     color: #828FA0;
     padding: 20px;
+    max-height: 166px;
 }
 
 .plans-cards .card .table tr td{
@@ -119,7 +123,7 @@ section {
 .btn {
     background: #0EC9AC;
     color: #fff;
-    border: none;
+    border: 1px solid #0EC9AC;
     box-sizing: border-box;
 }
 
