@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding:0;
@@ -66,3 +67,52 @@ body{
         font-size: 35px;
     }
 }
+=======
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background: #00142C;
+}
+.main_photo{
+    height: 500px;
+    width: 80%;
+}
+.main_title{
+    font-size: 60px;
+}
+.scrt{
+    color: #0EC9AC;
+}
+.main_btn{
+    width:40%;
+    background: #0EC9AC;
+    border: none;
+}
+.main_btn:hover{
+    background: #098470;
+}
+.main_btn:active{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(0, 147, 68, 0.61) 1px 1px 10px 1px;
+}
+@media only screen and (max-width: 1024px) {
+    .main_photo{
+        height: 500px;
+        width: 90%;
+    }
+    .main_title{
+        font-size: 55px;
+    }
+}
+@media only screen and (max-width: 992px){
+    .main_title{
+        font-size: 45px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .main_title{
+        font-size: 35px;
+    }
+}
+>>>>>>> f00857c9d4712feb45b4218bebe06a70b58d0ce0
