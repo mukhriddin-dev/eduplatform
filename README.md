@@ -15,3 +15,4 @@ Commitlar barchaga tushunarli bo'lsin
 3. Blog page Saidakrom Sharopov
 4. Pricing page Vohid Abduraxmonov
 5. FAQ page Abbos Nusrtullayev 
+6. Our-team page Mirzaxon Muqimov
