@@ -32,6 +32,7 @@ p{
 }
 .benefit_card{
     height: 210px;
+    width: 100%;
     box-sizing: border-box;
     background: #011936;
     border-radius: 10px;
@@ -53,6 +54,11 @@ p{
 .company_logo{
     width: 190px;
     height: 80px;
+    filter: grayscale(100%);
+    transition: all 0.4s ease-in-out;
+}
+.company_logo:hover{
+    filter: grayscale(0%);
 }
 .elementor_left_blog{
     background: url("../images/Home photos/elementor.jpg") no-repeat;
@@ -87,6 +93,136 @@ p{
 .elementor_into_img{
     width: 20%;
 }
+.advantages_right_blog{
+    background: url("../images/Home photos/advantages_img.jpg") no-repeat;
+    background-position: left;
+    background-size: cover;
+    height: 70vh;
+    border-radius: 10px;
+}
+.advantages_btn{
+    width:160px;
+    height: 55px;
+    background: #0EC9AC;
+    border: none;
+    border-radius: 8px;
+}
+.advantages_left_blog .advantages_left_ul{
+    width: 75%;
+    height: 75%;
+}
+.advantages_left_title{
+    color: #0EC9AC;
+}
+.iCheck{
+    color: #0EC9AC;
+}
+.statistic{
+    height: 205px;
+    border-radius: 10px;
+    background: #011936;
+}
+.statistic_icon{
+    font-size: 40px;
+    color: #0EC9AC;
+}
+.statistic_plus{
+    position: relative;
+    top: -12px;
+    color: #0EC9AC;
+    font-size: 27px;
+}
+.offer_title{
+    color: #0EC9AC;
+}
+.offer_card{
+    width: 30%;
+    border-radius: 10px;
+    background: #011936;
+}
+.offer_icon{
+    font-size: 65px;
+    color: #0EC9AC;
+}
+.offer_narrow{
+    color: #0EC9AC;
+    cursor: pointer;
+}
+.features{
+    height: 442px;
+    background: url("https://templatekit.jegtheme.com/cryptiva/wp-content/uploads/sites/53/2021/03/top-view-of-the-hands-of-a-programmer-on-his-laptop.jpg") fixed;
+    background-size: cover;
+    background-position: center;
+}
+.features_ul{
+    width: 100%;
+}
+.features_ul span{
+    width: 48%;
+}
+.features_ul .features_btn{
+    width:205px;
+    height: 55px;
+    background: #0EC9AC;
+    border: none;
+    border-radius: 8px;
+}
+.subscribe{
+    height: 320px;
+    background: #011936;
+    border-radius: 10px;
+}
+.subscribe_ul{
+    width: 50%;
+}
+.subscribe_form{
+    margin-left: 6rem;
+}
+.subscribe_input{
+    border: none;
+    width: 75%;
+    border-radius: 10px;
+    font-size: 17px;
+    box-sizing: border-box;
+    padding: 17px 25px;
+}
+.subscribe_input:focus{
+    outline: none;
+}
+.subscribe_btn{
+    width:127px;
+    height: 45px;
+    background: #0EC9AC;
+    border: none;
+    border-radius: 8px;
+    position: relative;
+    left: -8.5rem;
+    top: 7px;
+}
+.news_title{
+    color: #0EC9AC;
+}
+.news_card{
+    height: 500px;
+    width: 30%;
+    border-radius: 10px;
+    margin: 13px 13px;
+}
+.news_card_img{
+    border-radius: 10px;
+    cursor: pointer;
+    height: 50%;
+}
+.news_card_tag{
+    cursor: pointer;
+}
+.news_card_title{
+    cursor:pointer;
+}
+.news_narrow{
+    color: #0EC9AC;
+    cursor: pointer;
+}
 @media only screen and (max-width: 1024px) {
     .main_title{
         font-size: 55px;
@@ -108,6 +244,37 @@ p{
     .main_photo{
         height: 450px;
         width: 100%;
+    }
+    .advantages_left_blog .advantages_left_ul{
+        width: 100%;
+        height: 100%;
+    }
+    .offer_card{
+        width: 46%;
+        border-radius: 10px;
+        background: #011936;
+    }
+    .features_ul span{
+        width: 70%;
+    }
+    .subscribe_ul{
+        width: 75%;
+    }
+    .subscribe_input{
+        border: none;
+        width: 75%;
+        border-radius: 10px;
+        font-size: 17px;
+        box-sizing: border-box;
+        padding: 17px 25px;
+    }
+    .news_card_img{
+        border-radius: 10px;
+        cursor: pointer;
+        height: 50%;
+    }
+    .news_card{
+        margin:13px 13px;
     }
 }
 @media only screen and (max-width: 992px){
@@ -133,6 +300,32 @@ p{
         width: 10%;
         margin-top: 15px;
     }
+    .advantages_left_blog .advantages_left_ul{
+        width: 100%;
+        height: 100%;
+    }
+    .offer_card{
+        width: 45%;
+        border-radius: 10px;
+        background: #011936;
+    }
+    .features_ul span{
+        width: 90%;
+    }
+    .subscribe_ul{
+        width: 95%;
+    }
+    .news_card{
+        height: 500px;
+        width: 90%;
+        border-radius: 10px;
+        margin:80px 13px;
+    }
+    .news_card_img{
+        border-radius: 10px;
+        cursor: pointer;
+        height: 75%;
+    }
 }
 @media only screen and (max-width: 768px){
     .main_title{
@@ -156,6 +349,51 @@ p{
     .elementor_into_img{
         width: 8%;
     }
+    .advantages_left_blog .advantages_left_ul{
+        width: 100%;
+        height: 100%;
+    }
+    .statistic{
+        height: 405px;
+        border-radius: 10px;
+        background: #011936;
+    }
+    .offer_card{
+        width: 100%;
+        border-radius: 10px;
+        background: #011936;
+    }
+    .features_ul span{
+        width: 100%;
+    }
+    .subscribe_ul{
+        width: 100%;
+    }
+    .subscribe_form{
+        margin-left: -3rem;
+    }
+    .subscribe_btn{
+        width:167px;
+        height: 45px;
+        background: #0EC9AC;
+        border: none;
+        border-radius: 8px;
+        position: relative;
+        left: 0rem;
+        top: 10px;
+    }
+    .news_card{
+        height: 500px;
+        width: 90%;
+        border-radius: 10px;
+        margin:100px 13px;
+    }
+    .news_card_img{
+        border-radius: 10px;
+        cursor: pointer;
+        height: 75%;
+    }
+
 }
 @media only screen and (max-width: 576px){
     .main_title{
@@ -178,5 +416,36 @@ p{
     }
     .elementor_into_img{
         width: 10%;
+    }
+    .advantages_left_blog .advantages_left_ul{
+        width: 100%;
+        height: 100%;
+    }
+    .statistic{
+        height: 405px;
+        border-radius: 10px;
+        background: #011936;
+    }
+    .offer_card{
+        width: 100%;
+        border-radius: 10px;
+        background: #011936;
+    }
+    .features_ul span{
+        width: 100%;
+    }
+    .features{
+        height: 445px;
+    }
+    .news_card{
+        height: 500px;
+        width: 90%;
+        border-radius: 10px;
+        margin:120px 13px;
+    }
+    .news_card_img{
+        border-radius: 10px;
+        cursor: pointer;
+        height: 75%;
     }
 }
