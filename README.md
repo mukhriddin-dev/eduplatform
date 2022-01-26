@@ -17,3 +17,4 @@ Commitlar barchaga tushunarli bo'lsin
 5. FAQ page Abbos Nusrtullayev 
 6. Our-team page Mirzaxon Muqimov
 7. Contact Ahmedov Shohbaxt.
+8. Services Ahmedov Shohbaxt
