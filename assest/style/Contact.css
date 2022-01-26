@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #00142C;
+}
+p{
+    color:#8C98A8;
+}
+.Contact{
+    background: #011936;
+}
+.Contact .contact_header{
+    width: 40%;
+    height: 40vh;
+}
+.contact_body{
+    height: 110vh;
+}
+.contact_body .contact_right{
+    height: 86vh;
+    border: 1px solid rgba(255, 255, 255, 0.19);
+    border-radius: 5px;
+}
+.contact_body .contact_left_ul{
+    width: 80%;
+}
+.contact_body .contact_left_ul .contact_title{
+    color: #0EC9AC;
+}
+.contact_body .contact_left_ul .contact_icon_wrapper{
+    width: 61px;
+    height: 61px;
+    background: #011936;
+    list-style-type: none;
+    border-radius: 10px;
+}
+.contact_body .contact_left_ul .contact_icon_wrapper i{
+    font-size: 30px;
+    color: #0EC9AC;
+}
+.contact_body .contact_right .contact_input{
+    height: 52px;
+    width: 85%;
+    outline: none;
+    background: #011936;
+    border: none;
+    border-radius: 7px;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    padding-left: 25px;
+}
+.contact_body .contact_right .contact_input::placeholder{
+    color: rgba(255, 255, 255, 0.45);
+}
+.contact_body .contact_right .contact_textarea{
+    width: 85%;
+    height: 140px;
+    background: #011936;
+    border-radius: 7px;
+    box-sizing: border-box;
+    padding-left: 25px;
+    border: none;
+    outline: none;
+    color: white;
+}
+.contact_body .contact_right .contact_textarea::placeholder{
+    color: rgba(255, 255, 255, 0.45);
+}
+.contact_body .contact_right .contact_btn{
+    width:45%;
+    background: #0EC9AC;
+    border-radius: 10px;
+    border: none;
+    height: 70px;
+    position: relative;
+    left:-100px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.contact_body .contact_map{
+    filter: grayscale(95%);
+}
+@media only screen and (max-width:1024px) {
+    .contact_body .contact_left_ul{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:992px) {
+    .contact_body .contact_right .contact_btn{
+        width:35%;
+        position: relative;
+        left:-170px;
+    }
+    .Contact .contact_header {
+        width: 90%;
+    }
+}
+@media only screen and (max-width:768px) {
+    .contact_body .contact_right .contact_btn{
+        width:35%;
+        position: relative;
+        left:-130px;
+    }
+    .Contact .contact_header {
+        width: 100%;
+    }
+}
+@media only screen and (max-width:576px) {
+    .contact_body .contact_right .contact_btn{
+        width:35%;
+        position: relative;
+        left:-130px;
+    }
+    .Contact .contact_header {
+        width: 100%;
+    }
+}
