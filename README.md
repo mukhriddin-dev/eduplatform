@@ -16,3 +16,4 @@ Commitlar barchaga tushunarli bo'lsin
 4. Pricing page Vohid Abduraxmonov
 5. FAQ page Abbos Nusrtullayev 
 6. Our-team page Mirzaxon Muqimov
+7. Contact Ahmedov Shohbaxt.
