@@ -55,7 +55,7 @@ section {
     padding-top: 80px;
     margin: 0 auto;
     text-align: center;
-    
+
 }
 
 .plans .container .plans-title {
@@ -74,7 +74,7 @@ section {
     text-align: center;
     display: flex;
     justify-content: center;
-    
+
 }
 
 .plans-cards .card {
@@ -97,20 +97,20 @@ section {
     font-size: 36px;
     color: #0EC9AC;
 }
+
 .plans-cards .card .card-p-text {
     /* font-weight: bold; */
     color: #828FA0;
     font-size: 15px;
 }
 
-.plans-cards .card .table{
+.plans-cards .card .table {
     color: #828FA0;
     padding: 20px;
     max-height: 166px;
 }
 
-.plans-cards .card .table tr td{
-    /* border-bottom: none; */
+.plans-cards .card .table tr td {
     border-bottom: 1px solid #10233c;
 }
 
@@ -170,8 +170,202 @@ section {
 .still .container .btn {
     position: relative;
     top: 190px;
-    /* left: 120px; */
     text-align: center;
     margin: 0px auto;
 
 }
+
+/* Section , General Question */
+
+.general {
+    position: relative;
+    width: 100%;
+    background: #00142C;
+    padding-top: 40px;
+}
+
+.general .label {
+    text-align: center;
+    padding: 90px auto;
+}
+
+.general  .label h3 {
+    color: #0EC9AC;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.general  .label h1 {
+    color: #fff;
+    font-weight: 700;
+}
+
+
+.general .accordion {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    padding: 0 40px;
+    margin: 0 auto;
+    min-height: 450px;
+}
+
+
+
+/* general accordion */
+
+.accordion > div {
+    position: relative;
+	width: 70%;
+	max-width: 550px;
+    margin: 1rem;
+    padding: 20px 0px;
+}
+
+details div {
+	border-left: 2px solid #10233B;
+	border-right: 2px solid #10233B;
+	border-bottom: 2px solid #10233B;
+	padding: 1.5em;
+    color: #828FA0;
+}
+
+details div > * + * {
+	margin-top: 1.5em;
+}
+
+details + details {
+	margin-top: .5rem;
+}
+
+summary {
+	list-style: none;
+    color: #fff ;
+    transition: 1s ease;
+
+}
+
+summary::-webkit-details-marker {
+	display: none;
+
+}
+
+summary {
+	border: 2px solid #10233B;
+    border-radius: 10px;
+	padding: .75em 0em;
+	cursor: pointer;
+	position: relative;
+	padding-left: 20px;
+    padding-right: 20px;
+}
+
+summary::before {
+	position: absolute;
+	top: 50%;
+    right: 0;
+	transform: translateY(-50%);
+	left: 90%;
+	content: "+";
+	width: 1.85rem;
+	height: 1.85rem;
+	color: #FFF;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	flex-shrink: 0;
+}
+
+details[open] summary {
+	/* background-color: #eee; */
+    transition: 1s ease
+
+}
+
+details[open] summary:before {
+	content: "-";
+}
+
+
+
+a {
+	color: inherit;
+	font-weight: 600;
+	text-decoration: none;
+	box-shadow: 0 1px 0 0;
+}
+
+a:hover {
+	box-shadow: 0 3px 0 0;
+}
+
+code {
+	font-family: monospace;
+	font-weight: 600;
+}
+
+/* SUBSCRIBE */
+
+.subscribe{
+    height: 320px;
+    background: #011936;
+    border-radius: 10px;
+}
+.subscribe_ul{
+    width: 50%;
+}
+.subscribe_form{
+    margin-left: 6rem;
+}
+.subscribe_input{
+    border: none;
+    width: 75%;
+    border-radius: 10px;
+    font-size: 17px;
+    box-sizing: border-box;
+    padding: 17px 25px;
+}
+.subscribe_input:focus{
+    outline: none;
+}
+.subscribe_btn{
+    width:127px;
+    height: 45px;
+    background: #0EC9AC;
+    border: none;
+    border-radius: 8px;
+    position: relative;
+    left: -8.5rem;
+    top: 7px;
+}
+.news_title{
+    color: #0EC9AC;
+}
+.news_card{
+    height: 500px;
+    width: 30%;
+    border-radius: 10px;
+    margin: 13px 13px;
+}
+.news_card_img{
+    border-radius: 10px;
+    cursor: pointer;
+    height: 50%;
+}
+.news_card_tag{
+    cursor: pointer;
+}
+.news_card_title{
+    cursor:pointer;
+}
+.news_narrow{
+    color: #0EC9AC;
+    cursor: pointer;
+}
+
+.subscribe ul p {
+    color:#8C98A8;
+}
+
